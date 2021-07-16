@@ -10,11 +10,11 @@ const Header = ({ addTodo }) => {
 
   return (
     <header className="header">
-      <h1>todos</h1>
+      <h1>MY TO-DOs</h1>
       <TodoTextInput
         newTodo
         onSave={handleSave}
-        placeholder="What needs to be done?"
+        placeholder="Hey! What needs to be done this day?"
       />
     </header>
   );
